@@ -1,6 +1,6 @@
 # PrimeWidescreenHUDHelper
-The original [MetroidPrimeWidescreen](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_(GC)#16:9_HUD_Mod) mod has very involved installation steps that require the user to manually extract the ISO, unpack PAK files, and manually copy over the required files. 
-This batch script package automates it.
+The original [MetroidPrimeWidescreen](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_(GC)#16:9_HUD_Mod) mod has very involved installation steps that require the user to manually extract the ISO, unpack PAK files, and manually copy over the required files.  
+This batch script package automates it with a simple to run batch script.
 
 # Mod Installation
 - Download the original [MetroidPrimeWidescreen from the Dolphin Wiki](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_(GC)#16:9_HUD_Mod) and extract it.
