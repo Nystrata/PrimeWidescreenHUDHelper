@@ -67,3 +67,4 @@ This mod includes [NODTool](https://github.com/AxioDL/nod) to extract and build 
 See [EchoesWidescreenHUD](https://github.com/Nystrata/echoeswidescreenhud)
 
 ![image](https://github.com/Nystrata/PrimeWidescreenHUDHelper/assets/15365192/fc7bf6a1-5b32-4a13-9ccb-dbec6c737ba0)
+(This screenshot uses parts of [Metroid Prime Trilogy - HD Interface Textures](https://forums.dolphin-emu.org/Thread-metroid-prime-trilogy-hd-interface-textures-v-1-7-may-01-2021))
