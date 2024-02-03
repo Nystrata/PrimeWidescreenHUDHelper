@@ -37,17 +37,22 @@ ED330272 ED6A4824
 ```
 
 ### Option 2: Widescreen Hack
-> When Widescreen Hack is enabled, Dolphin's current widescreen detection will cause the game to flicker between normal view and stretched view.  
-> It is recommended to use Option 1: Gecko Codes while playing this game in the official Dolphin releases.  
-> Widescreen Hack should work properly if using the PrimeHack Dolphin fork.  
-
+(Requires 5.0-20347 Beta or later for [this reason](https://dolphin-emu.org/blog/2023/11/25/dolphin-progress-report-august-september-and-october-2023/#50-20097-and-50-20109-allow-widescreen-heuristic-to-be-modified-per-game-by-oatmealdome-and-billiard))  
 In Dolphin, choose Force 16:9 or Stretch for the Aspect Ratio (Options -> Graphics Settings -> General -> Aspect Ratio)   
-Enable Widescreen Hack: go to Options -> Graphics Settings -> Enhancements -> Check Widescreen Hack  
+Enable Widescreen Hack (Options -> Graphics Settings -> Enhancements -> Check Widescreen Hack)  
   
 To fix frustum culling problems (seeing stuff pop in and out near the left/right edges of the screen), use this **ActionReplay** code:  
 ```
 043452A8 C342CB78
 ```
+
+To fix the game flickering between normal and stretched view, edit the game INI to add  
+```
+[Video_Settings]
+SuggestedAspectRatio = 2
+```
+(To edit game INI settings, right click Metroid Prime in the game list -> Properties -> Game Config tab -> Editor  
+There, you can add the setting to the User Config section)
 
 ### Nintendont
 This hasn't been tested on Nintendont. You're free to give it a try, but no guarantees it'll work.
