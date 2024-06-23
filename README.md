@@ -3,13 +3,14 @@ The original [MetroidPrimeWidescreen](https://wiki.dolphin-emu.org/index.php?tit
   
 This batch script package automates it with a simple to run batch script.  
 
-This mod is intended for the NTSC-U GM8E01 0-00 version only.
+This mod is intended for the DOL-GM8E-0-00 USA (commonly known as "0-00") version only.  
+For information on determining the disc's version number, see [metroid2002.com: metroid prime: version differences: version number](https://www.metroid2002.com/version_differences_version_number.php)
 
 ## Patching the Game
 - Download the original [MetroidPrimeWidescreen from the Dolphin Wiki](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_(GC)#16:9_HUD_Mod) and extract it.
 - Download PrimeWidescreenHUDHelper from this repository's [Releases page](https://github.com/Nystrata/PrimeWidescreenHUDHelper/releases) and extract it.
 - Copy the all of the files and folders from PrimeWidescreenHUDHelper into the extracted MetroidPrimeWidescreen folder
-- Place your Metroid Prime (USA) (GM8E01) (0-00) ISO into the MetroidPrimeWidescreen folder,  
+- Place your Metroid Prime ISO into the MetroidPrimeWidescreen folder,  
   **Make sure it is named `prime.iso`**  
   The folder should look like this  
   ![image](https://github.com/Nystrata/PrimeWidescreenHUDHelper/assets/15365192/d0c6e632-7c24-4008-a36d-1e6f01b7dd91)  
